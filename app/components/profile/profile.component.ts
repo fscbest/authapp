@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Auth} from "../../services/auth.service";
 
 @Component({
     moduleId: module.id,
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
     templateUrl: 'profile.component.html'
 })
 export class ProfileComponent implements OnInit {
-    constructor() { }
+  constructor(private auth: Auth) {
+
+  }
 
     ngOnInit() { }
 
