@@ -144,3 +144,16 @@ Shut it down manually with `Ctrl-C`.
 
 [travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
 [travis-badge-url]: https://travis-ci.org/angular/quickstart
+
+
+# Project's steps
+[![Build Status][travis-badge]][travis-badge-url]
+[Auth0 quickstart](https://auth0.com/docs/quickstart/spa/angular2)
+
+#Install 'angular2-jwt' helper library for Auth0
+E:\MyProj\authapp>npm install angular2-jwt --save
+
+#Install Lock Widget, the default authentication widget provided by Auth0
+npm install --save auth0-lock
+
+[Add routing](https://angular.io/docs/ts/latest/guide/router.html)
